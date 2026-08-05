@@ -1,0 +1,16 @@
+{
+  "name": "salah-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A timezone-aware Islamic prayer time planner with a live Google Calendar feed.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.12",
+    "express": "^4.21.2",
+    "serverless-http": "^4.0.0"
+  }
+}
