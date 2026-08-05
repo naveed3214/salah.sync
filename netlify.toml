@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "echo 'Salah Sync: static frontend + Netlify Function'"
+  command = "npm install"
 
 [build.environment]
   NODE_VERSION = "20"
